@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
+body{
+    background: url("/Website/Images/shopping.jpg");
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+* {
+    box-sizing: border-box;
+    font-family: Lora;
+}   
+footer{
+    border-style: outset;
+    border-color: #FFFFFF;
+    background-color: #343a40;
+    margin-top: 705px;
+}
+
+/* Footer texts */
+footer .footer-text{
+    font-size: 14px;
+    color: white;
+    margin: auto;
+    font-family: Merriweather; 
+    text-align: center;
+}
